@@ -1,7 +1,7 @@
 # ObjectJsonLite
 C# class for converting any object to a Json string, without using Newtonsoft
 
-#Usage
+## Usage
 //include properties name/value with null values in json string
 object example1 = new YourObjectHere();
 string json1 = ObjectJsonLite.Serialize(example1);
