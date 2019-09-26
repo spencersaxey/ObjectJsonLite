@@ -1,7 +1,6 @@
 # ObjectJsonLite
 C# class for converting any object to a Json string, without using Newtonsoft
 ## Usage
----
 #### include properties name/value with null values in json string
 ```
 YourObjectHere example1 = new YourObjectHere();
@@ -15,9 +14,7 @@ YourObjectHere exmample2 = new YourObjectHere();
 string json2 = ObjectJsonLite.Serialize(example2, true);
 ```
 
----
 ## Contribute
----
 #### Bugs
 If you find a bug, please report it on this GitHub page, email me, or if you find the fix yourself, pull request the code with notes into master ٩(◕‿◕｡)۶	
 #### Features
